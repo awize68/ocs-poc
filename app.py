@@ -51,8 +51,8 @@ def show_security_events():
 # Toute la logique de `check_password` a été supprimée.
 
 st.title("OCS Cognitive Layer Dashboard")
-st.markdown("Welcome to the Digital Twin control center for your building.")
-
+#st.markdown("Welcome to the Digital Twin control center for your building.")
+st.markdown('<h1 class="main-title">PIONIER - Fleet Overview</h1>', unsafe_allow_html=True)
 # Utiliser des colonnes pour une mise en page
 col1, col2 = st.columns(2)
 
